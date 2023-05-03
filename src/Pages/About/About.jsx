@@ -1,10 +1,11 @@
 import { Component } from "react";
-
+import "./About.css"
 class About extends Component {
   state = {};
   render() {
     return (
       <>
+      <p id="head" className="text-center">About</p>
         <div className="container text-center">
           <h1>We Are!!!</h1>
           <h3>
